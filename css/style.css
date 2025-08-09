@@ -29,12 +29,20 @@ nav img{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 50%;
   border-radius: 10%;
   margin-bottom: 200px;
-  box-shadow: 20px 50px 55px 20px rgba(199, 197, 197, 0.12);
-  border: 2px solid white;
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+}
 
+/* ✅ ДОБАВЛЕНО: Стили для видео */
+nav iframe {
+  width: 50%; /* Ширина как у картинок */
+  height: 315px; /* Стандартная высота для видео 16:9 */
+  border-radius: 10%; /* Скругление как у картинок */
+  border: none; /* Убираем стандартную рамку */
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* Тень как у картинок */
+  margin-bottom: 200px; /* Отступ как у картинок */
 }
 
 nav {
