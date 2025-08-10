@@ -1,52 +1,40 @@
 body {
-  background-color: black;
+  /* Від холодного темно-синього до чорного */
+  background: linear-gradient(to bottom, rgb(23, 21, 21), #000000);
+  min-height: 100vh; /* Гарантує, що градієнт заповнить всю висоту екрану */
 }
 
 nav p {
   display: flex;
-  flex-direction: row;
+  color: white;
+  flex-direction: column;
   justify-content: center;
-  padding: 10px 0;
-  font-size: 60px;
-  width: 80%;
-  border-radius: 55%;
-  border: 1px solid black;
+  font-size: 35px;
+  width: 90%;
   font-family: "Times New Roman", sans-serif;
-  cursor: pointer;
-  background-color: white;
-  text-shadow: 1px 1px 0 #cccccc,
-  2px 2px 0 #b8b8b8,
-  3px 3px 0 #a6a6a6,
-  4px 4px 0 #949494,
-  5px 5px 10px rgba(0, 0, 0, 0.6);
-  margin-bottom: 50px;
-  opacity: 5%;
+  text-align: left;
 }
 
-nav img {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-  border-radius: 10%;
-  margin-bottom: 200px;
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5);
+nav p:nth-child(1){
+  font-size: 40px;
 }
-
-/* ✅ ДОБАВЛЕНО: Стили для видео */
-nav iframe {
-  width: 50%; /* Ширина как у картинок */
-  height: 315px; /* Стандартная высота для видео 16:9 */
-  border-radius: 10%; /* Скругление как у картинок */
-  border: none; /* Убираем стандартную рамку */
-  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.5); /* Тень как у картинок */
-  margin-bottom: 200px; /* Отступ как у картинок */
-}
-
 nav {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: center;
   padding-top: 50px;
+  align-items: center;
+  width: 100%;
+}
+
+.tlgrm{
+  cursor: pointer;
+  font-size: 25px;
+  color: white;
+
+}
+
+.call{
+  cursor: pointer;
+  font-size: 20px;
 }
