@@ -70,3 +70,22 @@ nav {
   }
 
 }
+
+@media (prefers-color-scheme: light) {
+  body {
+    background: linear-gradient(to bottom, rgb(230, 230, 230), #ffffff);
+    color: black;
+  }
+
+  nav p {
+    color: black;
+  }
+
+  .tlgrm {
+    color: black;
+  }
+
+  .call {
+    color: inherit;
+  }
+}
