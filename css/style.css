@@ -39,7 +39,7 @@ nav {
 
 .call {
   font-size: 25px;
-  color: white;
+  color: inherit;
   text-decoration: none;
   text-underline-mode: none;
   text-underline: none;
@@ -62,7 +62,7 @@ nav {
 
   .tlgrm, .call {
     font-size: 20px;
-    color: white;
+    color: inherit;
     text-decoration: none;
     text-underline-mode: none;
     text-underline: none;
