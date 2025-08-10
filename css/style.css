@@ -2,6 +2,7 @@ body {
   /* Від холодного темно-синього до чорного */
   background: linear-gradient(to bottom, rgb(23, 21, 21), #000000);
   min-height: 100vh; /* Гарантує, що градієнт заповнить всю висоту екрану */
+  text-decoration: none;
 }
 
 nav p {
@@ -15,9 +16,10 @@ nav p {
   text-align: left;
 }
 
-nav p:nth-child(1){
+nav p:nth-child(1) {
   font-size: 40px;
 }
+
 nav {
   display: flex;
   flex-direction: column;
@@ -27,16 +29,22 @@ nav {
   width: 100%;
 }
 
-.tlgrm{
+.tlgrm {
   cursor: pointer;
   font-size: 25px;
   color: white;
+  text-decoration: none;
+  text-underline-mode: none;
+  text-underline: none;
 
 }
 
-.call{
-  font-size: 25px;  color: white;
-
+.call {
+  font-size: 25px;
+  color: white;
+  text-decoration: none;
+  text-underline-mode: none;
+  text-underline: none;
 }
 
 /*
@@ -65,7 +73,7 @@ nav {
     font-size: 24px;
   }
 
-  .tlgrm, .call {
+  .tlgrm, .call p, a, b {
     /* Зменшуємо розмір тексту для контактів */
     font-size: 20px;
   }
